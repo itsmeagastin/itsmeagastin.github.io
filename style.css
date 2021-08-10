@@ -1,0 +1,115 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:1rem;
+	
+}
+#hd1 {
+	background:url("AI_Banner_2019.jpg") no-repeat center center/cover;
+	padding:10px 0 150px 0;
+	
+	
+}
+#hd1 li img{
+	border-radius:50px;
+	max-width:50px;
+}
+.bio:before{
+	content: "Bio";
+	background-color: #ff5821;
+	position: absolute;
+	color: #fff;
+	padding: 12px;
+	height: 100%;
+	display: grid;
+	place-items: center;
+	font-weight: 2rem;
+	margin-right:2rem;
+	top: 0;
+	left: 0;
+}
+.bio{
+	background: #fff2df;
+	border-radius: 7px;
+	overflow:hidden;
+	
+}
+
+#prtxt{
+	font-size:1rem;
+	color:#000;
+	
+	
+}
+
+.prof img{
+	border-radius:50%;
+	max-width:150px;
+}
+.prof{
+	
+	overflow: hidden;
+	top:-75px;
+	
+}
+.bdr{
+	background-color: #fff;
+	border-radius:15px;
+	font-size:1rem;
+	
+}
+.bdr:hover{
+	
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.mywork img{
+	
+	max-width:auto;
+	height: auto;
+}
+.mywork:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#hd3 p{
+	border:solid 15px #A0C3FF;
+	border-radius:50px;
+	background-color:#A0C3FF;
+	color:#4285FA;
+	box-shadow:0 9px 8px rgba(0,0,0,0.30),0 5px 2px rgba(0,0,0,0.22)
+	
+}
+#social a{
+	border:solid 2px #fff;
+	border-radius:50%;
+	background-color:#fff;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	
+}
+
+#footer
+{
+	color:#fff;
+	background-color:#4285FA;
+	font-size:1rem;
+	height:80px;
+	
+}
+.fa{
+	top:-505px;
+	font-size:10px;
+	
+
+}
+
+#social a{
+	text-decoration:none;
+}
+
+#social a:hover{
+	background-color:#A0C3FF;
+}
+#footer p{
+	border-bottom:solid 1px #fff;
+	border-radius:10px;
+	
+}
