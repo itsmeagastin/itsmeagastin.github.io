@@ -12,7 +12,21 @@ body{
 #hd1 li img{
 	border-radius:50px;
 	max-width:50px;
+	background-color:#fff2df;
+	padding:2px;
 }
+#hd2 .mail{
+	top:-38px;
+	z-index:+999;
+}
+#hd2 .mail a{
+	color:#fff
+
+	}
+#hd2 a:hover{
+	text-decoration:none;
+}
+#hd2 .fa{color:#ff5821}
 .bio:before{
 	content: "Bio";
 	background-color: #ff5821;
@@ -29,9 +43,16 @@ body{
 }
 .bio{
 	background: #fff2df;
-	border-radius: 7px;
-	overflow:hidden;
 	
+	
+}
+
+.flw p span{
+	border-left:solid 3px #ff5821;
+	border-right:solid 3px  #fff2df;
+	border-top:solid 3px  #fff2df;
+	border-bottom:solid 3px  #fff2df;
+	background: #fff2df;
 }
 
 #prtxt{
@@ -44,11 +65,13 @@ body{
 .prof img{
 	border-radius:50%;
 	max-width:150px;
+	background-color:#fff2df;
+	padding:3px;
 }
 .prof{
 	
 	overflow: hidden;
-	top:-75px;
+	top:-100px;
 	
 }
 .bdr{
