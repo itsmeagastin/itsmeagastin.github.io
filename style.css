@@ -140,5 +140,10 @@ body{
 @media (max-width:600px){
 
 	#hd2 .mail{top:-136px}
+	body{
+		font-family: 'Open Sans', sans-serif;
+		font-size:1rem;
+		
+	}
 
 }
