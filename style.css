@@ -136,3 +136,9 @@ body{
 	border-radius:10px;
 	
 }
+
+@media (max-width:600px){
+
+	#hd2 .mail{top:-136px}
+
+}
