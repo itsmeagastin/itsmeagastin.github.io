@@ -95,11 +95,11 @@ body{
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 #hd3 p{
-	border:solid 15px #A0C3FF;
+	border:solid 15px #fff2df;
 	border-radius:50px;
-	background-color:#A0C3FF;
-	color:#4285FA;
-	box-shadow:0 9px 8px rgba(0,0,0,0.30),0 5px 2px rgba(0,0,0,0.22)
+	background-color:#fff2df;
+	color:#000;
+
 	
 }
 #social a{
@@ -113,9 +113,9 @@ body{
 #footer
 {
 	color:#fff;
-	background-color:#4285FA;
+	background-color:#ff5821;
 	font-size:1rem;
-	height:80px;
+	height:100px;
 	
 }
 .fa{
@@ -127,24 +127,24 @@ body{
 
 #social a{
 	text-decoration:none;
+	color: #ff5821;
 }
 
 #social a:hover{
-	background-color:#A0C3FF;
+	background-color:#fff2df;
 }
-#footer p{
-	border-bottom:solid 1px #fff;
-	border-radius:10px;
-	
-}
+
 
 @media (max-width:600px){
 
-	#hd2 .mail{top:-136px;
-	
-	}
+	#hd2 .mail{
+		
+		top:-136px;
+		
+			}
+
 	.prof {
 			top: -134px;
 		}
-		
-	}
+
+}
